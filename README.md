@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 Website Rental Service
 
-## Getting Started
+A customizable and user-friendly website rental platform built for clients who need a stunning and functional website without the hassle of long-term development. Perfect for small businesses, freelancers, and professionals.
 
-First, run the development server:
+## 🔧 Features
+
+- ✨ Pre-built website templates (modern, minimalist, portfolio, business, etc.)
+- 🧩 Easy feature selection (gallery, contact form, booking system, etc.)
+- 🖼️ Optional custom branding (logo, color palette, typography)
+- 🔐 Admin access or managed update options
+- 📅 Subscription-based model (monthly rental pricing)
+- 💬 Client consultation form integration
+
+## 🚀 Tech Stack
+
+- **Frontend:** React + Next.js + Tailwind CSS  
+- **Backend:** Node.js / Next API routes  
+- **Database:** Supabase / Firebase / MongoDB *(optional, based on features)*  
+- **Deployment:** Vercel or Netlify
+
+## 🖥️ Live Demo
+
+🚧 *Coming Soon*  
+Or contact us directly to request a demo website tailored to your business.
+
+## 📦 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/website-rental-app.git
+
+# Navigate into the directory
+cd website-rental-app
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Open http://localhost:3000 in your browser.
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Folder Structure
+/app
+  /components   -> Reusable components (Navbar, Footer, Forms, etc.)
+  /pages        -> Main route pages (Home, About, Contact, etc.)
+  /styles       -> Global Tailwind config
+/public         -> Static assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Roadmap
+Client onboarding survey form
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Subscription plan integration
 
-## Learn More
+Admin dashboard for website management
 
-To learn more about Next.js, take a look at the following resources:
+Theme customizer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Email notification system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💡 Customization
+We offer fully managed or self-service customization.
+Want something unique? Just answer our short Client Survey to get started.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contact
+Made with ❤️ by Napoleon
+For inquiries, feel free to reach out or visit [nap-portfolio.vercel.app](https://nap-portfolio.vercel.app/)
