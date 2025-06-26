@@ -42,12 +42,13 @@ Open http://localhost:3000 in your browser.
 ```
 
 ## 📂 Folder Structure
+```
 /app
   /components   -> Reusable components (Navbar, Footer, Forms, etc.)
   /pages        -> Main route pages (Home, About, Contact, etc.)
   /styles       -> Global Tailwind config
 /public         -> Static assets
-
+```
 ## 📄 Roadmap
 Client onboarding survey form
 
